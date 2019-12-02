@@ -4,7 +4,7 @@
   "description": "Create captcha in nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ozgur-dogan/nodejs-captcha/issues"
   },
-  "homepage": "https://github.com/ozgur-dogan/nodejs-captcha#readme"
+  "homepage": "https://github.com/ozgur-dogan/nodejs-captcha#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
 }
