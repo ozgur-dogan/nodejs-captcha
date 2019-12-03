@@ -30,7 +30,7 @@ var height = newCaptcha.heigth;
 
 "use strict";
 var http = require("http");
-var captcha = require("./");
+var captcha = require("nodejs-captcha");
 var PORT = 8181;
 
 function handleRequest(req, res) {
