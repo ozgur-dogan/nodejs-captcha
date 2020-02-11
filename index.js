@@ -99,7 +99,6 @@ function printText(ctx, params) {
   }
 }
 function addCircles(ctx, params){
-  console.log('numberOfCircles',params,params.numberOfCircles);
   let i = 0;
 
   // Dark Circles
