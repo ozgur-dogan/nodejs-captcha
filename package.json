@@ -22,10 +22,10 @@
   "homepage": "https://github.com/ozgur-dogan/nodejs-captcha#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^8.1.1"
   },
   "dependencies": {
-    "canvas": "^2.6.0"
+    "canvas": "^2.6.1"
   },
   "engines": {
     "node": ">=6"
