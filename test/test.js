@@ -7,7 +7,7 @@ describe("#createCaptcha - param value", function() {
   it("param value should work", function() {
     const randomString = Math.random()
       .toString(36)
-      .substring(2, 15);
+      .substring(2, 8);
     const result = createCaptcha({ value: randomString });
     expect(result).to.have.property("value", randomString);
   });
